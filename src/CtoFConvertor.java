@@ -17,7 +17,8 @@ public class CtoFConvertor {
                 scan.nextLine();
 
                 tempFahr = tempCelsius * (9/5) + 32;
-                System.out.printf("The Fahrenheit conversion is : %-20f", tempFahr);
+                System.out.printf("The Fahrenheit is : %.2f" , tempFahr);
+                System.out.printf("\nThe Celsius is : %.2f", tempCelsius);
 
 
                 valid = true;
